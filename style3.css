@@ -104,9 +104,11 @@ nav{
 }
 
 
-.csh-article-content{
+.csh-article-content,
+.csh-box-link,
+.csh-header-search input{
         border: 0px solid #a7b7d2;
-    border-radius: 10px;
+    border-radius: 10px!important;
     overflow: hidden!important;
     box-shadow: 4px 4px 29px 6px rgb(102 104 160 / 14%);
 }
@@ -117,4 +119,12 @@ article{
 
 .csh-box-link h6{
     text-align: left;
+}
+
+.csh-header-title{
+    font-size: 0!important;
+}
+.csh-header-title:before{
+    content: "How can we help?";
+    font-size: 23.4px!important;
 }
