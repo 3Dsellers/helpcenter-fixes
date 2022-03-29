@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif!important;
+body, .csh-box .csh-text-wrap, .csh-box [class*="csh-font-sans"]{
     color: #0e1c71!important;
+}
+body, span{
+    font-family: 'Poppins', sans-serif!important;
 }
 
 .csh-markdown.csh-markdown-list[data-type]:before{
@@ -127,4 +129,17 @@ article{
 .csh-header-title:before{
     content: "How can we help?";
     font-size: 23.4px!important;
+}
+
+.csh-category section{
+    overflow: visible!important
+}
+
+.csh-aside-single-line{
+    color: #0e1c71!important;
+    font-weight: 400!important;
+}
+
+.csh-font-sans-bold{
+    font-weight: 200!important;
 }
