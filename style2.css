@@ -77,7 +77,8 @@ a:hover{
 }
 
 header .csh-wrapper,
-nav .csh-wrapper{
+nav .csh-wrapper,
+#body > .csh-wrapper{
     max-width: 1040px!important;
     width:100%!important;
 }
@@ -112,4 +113,8 @@ nav{
 
 article{
     border:0!important
+}
+
+.csh-box-link h6{
+    text-align: left;
 }
