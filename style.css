@@ -82,6 +82,11 @@ nav .csh-wrapper{
     width:100%!important;
 }
 
+nav{
+    line-height: 88px!important;
+    height: 88px!important;
+}
+
 #body, nav{
     background-color: #F8FAFC!important;
     border: none!important
