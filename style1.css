@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Poppins', sans-serif!important;
-    color: #0e1c71;
+    color: #0e1c71!important;
 }
 
 .csh-markdown.csh-markdown-list[data-type]:before{
@@ -100,4 +100,16 @@ nav{
 
 .csh-header-search:before{
     opacity: 0.3!important
+}
+
+
+.csh-article-content{
+        border: 0px solid #a7b7d2;
+    border-radius: 10px;
+    overflow: hidden!important;
+    box-shadow: 4px 4px 29px 6px rgb(102 104 160 / 14%);
+}
+
+article{
+    border:0!important
 }
