@@ -259,3 +259,10 @@ header .csh-wrapper .csh-header-search .csh-header-search-field .csh-header-sear
     color: #fff!important;
     text-decoration: none!important;
 }
+
+.csh-category-item:hover a{
+    text-decoration: none!important
+}
+.csh-category-item:hover a h6{
+    text-decoration: underline!important
+}
