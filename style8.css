@@ -162,7 +162,7 @@ article{
     position: relative;
 }
 
-[class*="hdng-"]:before{
+.hdng-1:before{
     content: "";
     display: block;
     position: absolute;
