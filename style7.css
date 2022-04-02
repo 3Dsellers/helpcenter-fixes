@@ -147,5 +147,51 @@ article{
 
 
 .csh-font-sans-bold{
-    font-weight: 200!important;
+    font-weight: 500!important;
+}
+
+
+
+.log-title{
+    font-weight: 500!important;
+}
+
+[class*="hdng-"]{
+    display: block;
+    font-weight: 500!important;
+    position: relative;
+}
+
+[class*="hdng-"]:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top:12px;
+    left:0;
+    height:11px;
+    border-left: 2px solid rgba(15,28,113,0.27);
+}
+
+.header-log{
+    margin-bottom:38px
+}
+
+.hdng-1{
+    padding-left: 8px!important;
+}
+.hdng-2{
+    padding-left: 11px!important; 
+}
+.hdng-3{
+    padding-left: 14px!important; 
+}
+.hdng-4{
+    padding-left: 17px!important; 
+}
+.hdng-5{
+    padding-left: 19px!important; 
+}
+.hdng-6{
+    padding-left: 22px!important; 
 }
