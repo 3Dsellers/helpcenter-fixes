@@ -7,6 +7,11 @@ body, span{
     font-family: 'Poppins', sans-serif!important;
 }
 
+.csh-aside-single-line{
+    color: #0e1c71!important;
+    font-weight: 400!important;
+}
+
 .csh-markdown.csh-markdown-list[data-type]:before{
     background:none!important;
     background-image: url("https://assets-global.website-files.com/5f60c731c7ffa0706798ef87/61d93a478685b7861d0ca2da_arrowhead-right.svg")!important;
@@ -25,16 +30,21 @@ a:hover{
     transition: all 250ms ease;
 }
 
+header .csh-header-background[data-tile=shapes]:after{
+    background-image: url('https://assets-global.website-files.com/5f60c731c7ffa0706798ef87/61d2cfcec611e3408022e191_Dashboard%20(5)%20(1).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:unset;
+}
 
-.csh-category-badge,
-.csh-header-main-actions-website{
+[class*="csh-font-sans"].csh-category-badge, .csh-category-badge, .csh-header-main-actions-website{
     height: 38px;
     border-radius: 29px!important;
     background-color: #2d72e8;
     background-image: linear-gradient(125deg,#2d72e8,#4c8df8 49%,#2c73e8 103%);
     -webkit-transition: background-color .2s,.2s;
     transition: background-color .2s,.2s;
-    color: #fff;
+    color: #ffffff!important;
     font-size: 13px;
     line-height: 38px;
     font-weight: 500;
@@ -135,10 +145,6 @@ article{
     overflow: visible!important
 }
 
-.csh-aside-single-line{
-    color: #0e1c71!important;
-    font-weight: 400!important;
-}
 
 .csh-font-sans-bold{
     font-weight: 200!important;
