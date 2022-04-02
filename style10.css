@@ -31,10 +31,11 @@ a:hover{
 }
 
 header .csh-header-background[data-tile=shapes]:after{
-    background-image: url('https://assets-global.website-files.com/5f60c731c7ffa0706798ef87/61d2cfcec611e3408022e191_Dashboard%20(5)%20(1).png');
+    background-image: url("https://uploads-ssl.webflow.com/5f60c731c7ffa0706798ef87/62489f09275ea397ccbd3314_right.png");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-image:unset;
+    background-size: contain;
+    opacity: 1;
+    background-position: right;
 }
 
 [class*="csh-font-sans"].csh-category-badge, .csh-category-badge, .csh-header-main-actions-website{
@@ -226,3 +227,6 @@ a:hover{
 .hdng-6{
     padding-left: 22px!important; 
 }
+
+
+
